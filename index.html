@@ -3,53 +3,235 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name</title>
+  <title>Lida Yan</title>
+  <meta name="description" content="Lida Yan — Thermal-Fluids • AI for Energy Systems" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    .wrap { max-width: 900px; margin: 60px auto; padding: 0 18px; line-height: 1.6; }
-    h1 { margin-bottom: 6px; }
-    .sub { color: #555; margin-top: 0; }
-    nav a { margin-right: 14px; text-decoration: none; color: #0b66c3; }
-    nav { margin: 18px 0 26px; }
-    .card { border: 1px solid #eee; border-radius: 12px; padding: 16px; margin: 14px 0; }
+    :root{
+      --bg:#0b1020; --card:#111a33; --text:#eaf0ff; --muted:#b7c2e6;
+      --line:rgba(255,255,255,.10); --accent:#7aa7ff; --accent2:#8cffc1;
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 20% -10%, rgba(122,167,255,.35), transparent 55%),
+        radial-gradient(1000px 600px at 90% 10%, rgba(140,255,193,.20), transparent 55%),
+        linear-gradient(180deg, var(--bg), #070a14 60%, #05060c);
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px; margin:0 auto; padding:28px 18px 70px}
+    header{
+      display:flex; gap:18px; align-items:center; justify-content:space-between;
+      padding:14px 0 10px;
+    }
+    .brand{display:flex; gap:12px; align-items:center}
+    .dot{
+      width:38px; height:38px; border-radius:12px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: var(--shadow);
+    }
+    nav a{
+      text-decoration:none; color:var(--muted); margin-left:14px; font-size:14px;
+      padding:8px 10px; border-radius:999px; border:1px solid transparent;
+    }
+    nav a:hover{color:var(--text); border-color:var(--line); background:rgba(255,255,255,.04)}
+    .hero{
+      margin-top:18px;
+      display:grid; grid-template-columns: 1.25fr .75fr; gap:18px;
+      align-items:stretch;
+    }
+    .panel{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding:22px;
+    }
+    h1{margin:0 0 8px; font-size:42px; letter-spacing:-.5px}
+    .subtitle{margin:0 0 14px; color:var(--muted); line-height:1.5}
+    .badges{display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 0}
+    .badge{
+      font-size:13px; color:var(--muted);
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.03);
+      padding:8px 10px; border-radius:999px;
+    }
+    .actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
+    .btn{
+      text-decoration:none; display:inline-flex; align-items:center; gap:8px;
+      padding:10px 12px; border-radius:12px; border:1px solid var(--line);
+      background: rgba(255,255,255,.04); color:var(--text); font-size:14px;
+    }
+    .btn.primary{
+      border:none;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color:#061022; font-weight:650;
+    }
+    .btn:hover{transform: translateY(-1px)}
+    .grid{
+      margin-top:18px;
+      display:grid; grid-template-columns: repeat(3, 1fr); gap:14px;
+    }
+    .card h3{margin:0 0 8px; font-size:16px}
+    .card p{margin:0; color:var(--muted); line-height:1.55; font-size:14px}
+    .section{
+      margin-top:18px;
+      display:grid; grid-template-columns: 1fr 1fr; gap:14px;
+    }
+    .list{margin:10px 0 0; padding:0; list-style:none}
+    .list li{
+      padding:12px 12px; border-radius:14px;
+      border:1px solid var(--line); background:rgba(255,255,255,.03);
+      margin-top:10px;
+    }
+    .list .title{font-weight:650}
+    .list .meta{color:var(--muted); font-size:13px; margin-top:6px}
+    footer{margin-top:26px; color:var(--muted); font-size:13px; text-align:center}
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      .section{grid-template-columns:1fr}
+      h1{font-size:34px}
+      nav{display:none}
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Your Name</h1>
-    <p class="sub">Postdoctoral Research Fellow • Thermal-Fluids • AI for Energy Systems</p>
+    <header>
+      <div class="brand">
+        <div class="dot" aria-hidden="true"></div>
+        <div>
+          <div style="font-weight:700; line-height:1.1">Lida Yan</div>
+          <div style="color:var(--muted); font-size:13px">Thermal-Fluids • AI • Energy Systems</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <nav>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="hero">
+      <div class="panel">
+        <h1>Lida Yan</h1>
+        <p class="subtitle">
+          Postdoctoral Research Fellow. I build physics-aware sensing and modeling tools for
+          multiphase thermal-fluid systems—spanning acoustic diagnostics of phase change,
+          solar-driven calcination for cement decarbonization, and ML-enabled porous materials.
+        </p>
 
-    <div class="card" id="research">
-      <h2>Research</h2>
-      <p>Write 3–5 lines about your research focus and current projects.</p>
+        <div class="actions">
+          <a class="btn primary" href="CV.pdf">Download CV</a>
+          <a class="btn" href="[YOUR_GOOGLE_SCHOLAR_LINK]">Google Scholar</a>
+          <a class="btn" href="[YOUR_LINKEDIN_LINK]">LinkedIn</a>
+          <a class="btn" href="[YOUR_GITHUB_LINK]">GitHub</a>
+        </div>
+
+        <div class="badges">
+          <div class="badge">Acoustic sensing (AE)</div>
+          <div class="badge">Phase-change heat transfer</div>
+          <div class="badge">Solar MEAD / calcination</div>
+          <div class="badge">Physics-informed ML</div>
+          <div class="badge">Porous electrodes & TO</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div style="font-weight:700; margin-bottom:8px">Quick links</div>
+        <ul class="list" style="margin-top:0">
+          <li>
+            <div class="title">Research highlights</div>
+            <div class="meta">3 themes + current projects</div>
+          </li>
+          <li>
+            <div class="title">Selected publications</div>
+            <div class="meta">Papers, preprints, and talks</div>
+          </li>
+          <li>
+            <div class="title">Teaching & mentoring</div>
+            <div class="meta">Courses, REU, lab onboarding</div>
+          </li>
+        </ul>
+        <div style="margin-top:14px; color:var(--muted); font-size:13px">
+          Tip: Upload <code style="color:var(--text)">CV.pdf</code> and a headshot to <code style="color:var(--text)">assets/</code>.
+        </div>
+      </div>
     </div>
 
-    <div class="card" id="publications">
-      <h2>Publications</h2>
-      <p>Add links to Google Scholar / papers.</p>
+    <div class="grid" id="research">
+      <div class="panel card">
+        <h3>Theme 1 — Acoustic sensing of interfacial dynamics</h3>
+        <p>Non-intrusive AE features to identify flow condensation regimes and predict heat transfer—robust across orientation.</p>
+      </div>
+      <div class="panel card">
+        <h3>Theme 2 — Solar-driven reactors for decarbonization</h3>
+        <p>Multiphysics modeling of particle–gas flow and kinetics to inform solar calciner design and residence-time control.</p>
+      </div>
+      <div class="panel card">
+        <h3>Theme 3 — AI-assisted porous materials</h3>
+        <p>Surrogate + generative workflows linking structure descriptors to performance for porous electrodes and thermal devices.</p>
+      </div>
     </div>
 
-    <div class="card" id="teaching">
-      <h2>Teaching</h2>
-      <p>Add courses taught, mentoring, and teaching interests.</p>
+    <div class="section">
+      <div class="panel" id="publications">
+        <h2 style="margin:0 0 10px">Selected publications</h2>
+        <ul class="list">
+          <li>
+            <div class="title">[Paper title 1]</div>
+            <div class="meta">Authors • Journal/Year • <a href="#">PDF</a></div>
+          </li>
+          <li>
+            <div class="title">[Paper title 2]</div>
+            <div class="meta">Authors • Journal/Year • <a href="#">PDF</a></div>
+          </li>
+          <li>
+            <div class="title">[Paper title 3]</div>
+            <div class="meta">Authors • Journal/Year • <a href="#">PDF</a></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="panel" id="teaching">
+        <h2 style="margin:0 0 10px">Teaching & mentoring</h2>
+        <ul class="list">
+          <li>
+            <div class="title">Power Generation Technologies (TA)</div>
+            <div class="meta">Active learning, site visits, project-based modules</div>
+          </li>
+          <li>
+            <div class="title">Mentoring</div>
+            <div class="meta">REU and research onboarding in experiments + modeling + ML</div>
+          </li>
+          <li>
+            <div class="title">Courses I can teach</div>
+            <div class="meta">Thermo/HT/Fluids • Two-phase • Data-driven modeling • Thermal systems</div>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="card" id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-      <p>
-        <a href="https://scholar.google.com/">Google Scholar</a> •
-        <a href="https://www.linkedin.com/">LinkedIn</a> •
-        <a href="https://github.com/">GitHub</a>
-      </p>
+    <div class="panel" id="contact" style="margin-top:14px">
+      <h2 style="margin:0 0 10px">Contact</h2>
+      <div style="color:var(--muted); line-height:1.7">
+        Email: <a href="mailto:yanlida@umich.edu">yanlida@umich.edu</a><br/>
+        Website: <a href="https://yanlida.com">yanlida.com</a>
+      </div>
     </div>
+
+    <footer>
+      © <span id="y"></span> Lida Yan • Built with GitHub Pages
+    </footer>
   </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
