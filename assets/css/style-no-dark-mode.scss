@@ -4,27 +4,39 @@
 @import "minimal-light-no-dark-mode";
 
 
-/* ===== Top Navigation Bar ===== */
+/* ===== Top Navigation (clean tabs) ===== */
 .topnav{
-  display:flex;
-  flex-wrap:wrap;
-  gap: 10px;
-  margin: 0 0 16px 0;
-  padding: 10px 12px;
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 12px;
-  background: rgba(255,255,255,0.75);
-  backdrop-filter: blur(8px);
+  margin: 0 0 18px 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .topnav .nav-link{
   text-decoration: none;
-  padding: 6px 10px;
-  border-radius: 10px;
+  padding: 6px 2px;
+  border-radius: 0;
   opacity: 0.9;
+  border-bottom: 2px solid transparent;
 }
 
 .topnav .nav-link:hover{
   opacity: 1;
-  background: rgba(0,0,0,0.06);
+  border-bottom-color: rgba(0,0,0,0.25);
+}
+
+/* Optional: make current page look active */
+.topnav .nav-link.active{
+  opacity: 1;
+  font-weight: 600;
+  border-bottom-color: rgba(0,0,0,0.55);
+}
+
+@media (prefers-color-scheme: dark){
+  .topnav .nav-link:hover{ border-bottom-color: rgba(255,255,255,0.35); }
+  .topnav .nav-link.active{ border-bottom-color: rgba(255,255,255,0.70); }
 }
