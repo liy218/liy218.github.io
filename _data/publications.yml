@@ -1,12 +1,52 @@
 main:
+  - year: 2026
+    entries:
+      - title: "Slug flow condensation identification with acoustic signatures"
+        authors: "<strong>Lida Yan</strong>, Dylan Wallen, Ahmed Allam, Han Hu, Kishan Bellur, Ying Sun"
+        venue: "International Journal of Heat and Mass Transfer, 256:128144, 2026."
 
- # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
- #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-#    conference_short: MICCAI
- #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
- #   pdf: https://arxiv.org/pdf/2306.00988.pdf
- #   code: https://github.com/MrGiovanni/ContinualLearning
- #   bibtex: https://bib.yliu.me/MICCAI23.txt
-  #  image: ./assets/img/teaser_example_2.png
-  #  notes: Early Accept
+  - year: 2025
+    entries:
+      - title: "Unsupervised machine learning framework for non-destructive acoustic emission sensing of flow condensation"
+        authors: "Dylan Wallen, <strong>Lida Yan</strong>, Christy Dunlap, Changgen Li, Han Hu, Ying Sun"
+        venue: "AI Thermal Fluids, 100010, 2025."
 
+      - title: "Prediction of local heat transfer characteristics in flow condensation via acoustic Emission sensing"
+        authors: "<strong>Lida Yan</strong>, Jiayuan Li, JP Panda, Chirag R Kharangate, Ying Sun"
+        venue: "Applied Thermal Engineering, 129120, 2025."
+
+  - year: 2024
+    entries:
+      - title: "Experimental investigation of the thermal performance of pervious concrete integrated with phase change material for dry cooling applications"
+        authors: "<strong>Lida Yan</strong>, Emad Yaghmour, Derek Scott, Mu'ath I Abu Qamar, John Fox, Clay Naito, Sudhakar Neti, Carlos E Romero, Nenad Sarunac, Muhannad Suleiman"
+        venue: "Applied Thermal Engineering, 236:121749, 2024."
+
+      - title: "Use of 3D printed concrete components for thermal energy storage"
+        authors: "I Mu'ath, Emad Yaghmour, Xingjian Wang, Clay Naito, Muhannad Suleiman, Paolo Bocchini, John Fox, Carlos Romero, <strong>Lida Yan</strong>"
+        venue: "Construction and Building Materials, 411:134240, 2024."
+
+      - title: "Energy and exergy analysis of a laboratory-scale latent heat thermal energy storage (LTES) using salt-hydrate in a staggered tube arrangement"
+        authors: "Mahfuja A Khuda, <strong>Lida Yan</strong>, Javad Khalesi, Nenad Sarunac, Carlos Romero"
+        venue: "Journal of Energy Storage, 87:111320, 2024."
+
+      - title: "Design, analysis, and testing of a prototype-scale latent heat thermal energy storage (LTES) system"
+        authors: "Mahfuja A Khuda, <strong>Lida Yan</strong>, Nenad Sarunac, Carlos Romero"
+        venue: "Journal of Energy Storage, 89:111796, 2024."
+
+      - title: "Energy storage in lightweight aggregate and pervious concrete infused with phase change materials"
+        authors: "Emad Yaghmour, Mu'ath Abu Qamar, <strong>Lida Yan</strong>, Clay Naito, Muhannad Suleiman, John Fox, Carlos Romero, Sudhakar Neti"
+        venue: "Applied Thermal Engineering, 250:123430, 2024."
+
+  - year: 2023
+    entries:
+      - title: "Examining the Hydration Behavior of Aqueous Calcium Chloride (CaCl2) Solution via Atomistic Simulations"
+        authors: "<strong>Lida Yan</strong>, Ganesh Balasubramanian"
+        venue: "Physchem, 3(3):319-331, 2023."
+
+      - title: "Effect of Scaled Ionic Charges on the Freezing Point Depression of Aqueous CaCl2 Solution"
+        authors: "<strong>Lida Yan</strong>, Derek Scott, Ganesh Balasubramanian"
+        venue: "Journal of Molecular Liquids, 2023."
+
+      - title: "Optimizing supercooling and phase stability by additives in calcium chloride hexahydrate for cyclical latent heat storage"
+        authors: "<strong>Lida Yan</strong>, Joshua Charles, Carlos E Romero, Sudhakar Neti, Ganesh Balasubramanian"
+        venue: "International Communications in Heat and Mass Transfer, 149:107119, 2023."
