@@ -1,12 +1,63 @@
 main:
+  - year: 2026
+    entries:
+      - title: "Slug flow condensation identification with acoustic signatures"
+        authors: "<strong>Yan, Lida</strong>, Wallen, Dylan, Allam, Ahmed, Hu, Han, Bellur, Kishan, Sun, Ying"
+        venue: "International Journal of Heat and Mass Transfer, 256:128144, 2026."
+        image: ./assets/img/pubs/ijhmt.svg
 
- # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
- #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-#    conference_short: MICCAI
- #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
- #   pdf: https://arxiv.org/pdf/2306.00988.pdf
- #   code: https://github.com/MrGiovanni/ContinualLearning
- #   bibtex: https://bib.yliu.me/MICCAI23.txt
-  #  image: ./assets/img/teaser_example_2.png
-  #  notes: Early Accept
+  - year: 2025
+    entries:
+      - title: "Unsupervised machine learning framework for non-destructive acoustic emission sensing of flow condensation"
+        authors: "Wallen, Dylan, <strong>Yan, Lida</strong>, Dunlap, Christy, Li, Changgen, Hu, Han, Sun, Ying"
+        venue: "AI Thermal Fluids, 100010, 2025."
+        image: ./assets/img/pubs/aitf.svg
 
+      - title: "Prediction of local heat transfer characteristics in flow condensation via acoustic Emission sensing"
+        authors: "<strong>Yan, Lida</strong>, Li, Jiayuan, Panda, JP, Kharangate, Chirag R, Sun, Ying"
+        venue: "Applied Thermal Engineering, 129120, 2025."
+        image: ./assets/img/pubs/ate.svg
+
+  - year: 2024
+    entries:
+      - title: "Experimental investigation of the thermal performance of pervious concrete integrated with phase change material for dry cooling applications"
+        authors: "<strong>Yan, Lida</strong>, Yaghmour, Emad, Scott, Derek, Qamar, Mu'ath I Abu, Fox, John, Naito, Clay, Neti, Sudhakar, Romero, Carlos E, Sarunac, Nenad, Suleiman, Muhannad"
+        venue: "Applied Thermal Engineering, 236:121749, 2024."
+        image: ./assets/img/pubs/ate.svg
+
+      - title: "Use of 3D printed concrete components for thermal energy storage"
+        authors: "Mu'ath, I, Yaghmour, Emad, Wang, Xingjian, Naito, Clay, Suleiman, Muhannad, Bocchini, Paolo, Fox, John, Romero, Carlos, <strong>Yan, Lida</strong>"
+        venue: "Construction and Building Materials, 411:134240, 2024."
+        image: ./assets/img/pubs/cbm.svg
+
+      - title: "Energy and exergy analysis of a laboratory-scale latent heat thermal energy storage (LTES) using salt-hydrate in a staggered tube arrangement"
+        authors: "Khuda, Mahfuja A, <strong>Yan, Lida</strong>, Khalesi, Javad, Sarunac, Nenad, Romero, Carlos"
+        venue: "Journal of Energy Storage, 87:111320, 2024."
+        image: ./assets/img/pubs/jes.svg
+
+      - title: "Design, analysis, and testing of a prototype-scale latent heat thermal energy storage (LTES) system"
+        authors: "Khuda, Mahfuja A, <strong>Yan, Lida</strong>, Sarunac, Nenad, Romero, Carlos"
+        venue: "Journal of Energy Storage, 89:111796, 2024."
+        image: ./assets/img/pubs/jes.svg
+
+      - title: "Energy storage in lightweight aggregate and pervious concrete infused with phase change materials"
+        authors: "Yaghmour, Emad, Qamar, Mu'ath Abu, <strong>Yan, Lida</strong>, Naito, Clay, Suleiman, Muhannad, Fox, John, Romero, Carlos, Neti, Sudhakar"
+        venue: "Applied Thermal Engineering, 250:123430, 2024."
+        image: ./assets/img/pubs/ate.svg
+
+  - year: 2023
+    entries:
+      - title: "Examining the Hydration Behavior of Aqueous Calcium Chloride (CaCl2) Solution via Atomistic Simulations"
+        authors: "<strong>Yan, Lida</strong>, Balasubramanian, Ganesh"
+        venue: "Physchem, 3(3):319-331, 2023."
+        image: ./assets/img/pubs/physchem.svg
+
+      - title: "Effect of Scaled Ionic Charges on the Freezing Point Depression of Aqueous CaCl2 Solution"
+        authors: "<strong>Yan, Lida</strong>, Scott, Derek, Balasubramanian, Ganesh"
+        venue: "Journal of Molecular Liquids, 2023."
+        image: ./assets/img/pubs/jml.svg
+
+      - title: "Optimizing supercooling and phase stability by additives in calcium chloride hexahydrate for cyclical latent heat storage"
+        authors: "<strong>Yan, Lida</strong>, Charles, Joshua, Romero, Carlos E, Neti, Sudhakar, Balasubramanian, Ganesh"
+        venue: "International Communications in Heat and Mass Transfer, 149:107119, 2023."
+        image: ./assets/img/pubs/ichmt.svg

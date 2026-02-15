@@ -1,25 +1,28 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Journal Publications</h2>
 
-{% assign publication_entries = site.data.publications.main | default: empty %}
-{% if publication_entries and publication_entries.size > 0 %}
+{% assign publication_years = site.data.publications.main | default: empty %}
+{% if publication_years and publication_years.size > 0 %}
 <div class="publications">
-<ol class="bibliography">
 
-{% for link in publication_entries %}
+{% for year_block in publication_years %}
+<h3 style="margin: 18px 0 8px;">{{ year_block.year }}</h3>
+<ol class="bibliography">
+{% for link in year_block.entries %}
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %}
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;">
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      {% if link.pdf %}
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      {% else %}
+      <div class="title">{{ link.title }}</div>
+      {% endif %}
       <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="periodical"><em>{{ link.venue }}</em>
       </div>
     <div class="links">
       {% if link.pdf %}
@@ -46,8 +49,8 @@
 </li>
 <br>
 {% endfor %}
-
 </ol>
+{% endfor %}
 </div>
 {% else %}
 <p>Publication entries will appear here soon.</p>
