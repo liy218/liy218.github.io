@@ -3,4 +3,4 @@ layout: homepage
 permalink: /publications/
 ---
 
-{% include publications.md %}
+# {% include publications.md %}
