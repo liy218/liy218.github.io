@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-Can we transport energy across *time?*  
+Can we transport energy across *time*? 
 
 Can we *listen* and *speak* to interfacial dynamics?
 
