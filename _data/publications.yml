@@ -4,7 +4,7 @@ main:
       - title: "Slug flow condensation identification with acoustic signatures"
         authors: "<strong>Yan, Lida</strong>, Wallen, Dylan, Allam, Ahmed, Hu, Han, Bellur, Kishan, Sun, Ying"
         venue: "International Journal of Heat and Mass Transfer, 256:128144, 2026."
-        image: ./assets/img/pubs/ijhmt.svg
+        image: ./assets/img/pubs/slug.jpg
 
   - year: 2025
     entries:
