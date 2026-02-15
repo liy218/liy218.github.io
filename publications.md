@@ -1,7 +1,8 @@
 
 ---
 layout: homepage
+title: Publications
+permalink: /publications/
 ---
 
-permalink: /publications/
 {% include publications.md %}
