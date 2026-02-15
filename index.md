@@ -3,10 +3,10 @@ layout: homepage
 ---
 
 ## About Me
-*Can we move heat across time?*  
+Can we transport energy across *time?*  
 
-*Can we hear phase-change heat transfer?*  
+Can we *listen* and *speak* to interfacial dynamics?
 
-*Can data and physics together shape the next generation of energy systems?*
+Can *human insight* and *AI* co-design the future of energy?
 
 These questions guide my research in thermal sciences — at the intersection of experiment, simulation, and intelligent modeling.
