@@ -1,42 +1,256 @@
 ---
-layout: homepage
+layout: page
+title: Research
 permalink: /research/
 ---
+
+<style>
+.research-section {
+  margin-bottom: 60px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.research-section h2 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.research-subsection {
+  margin: 25px 0;
+}
+
+.research-subsection h3 {
+  color: #34495e;
+  font-size: 1.3em;
+}
+
+.research-figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.research-figure img, 
+.research-figure video {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.research-figure .placeholder {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 20px;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+.research-figure .placeholder span {
+  display: block;
+  font-size: 0.85em;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.research-description {
+  line-height: 1.8;
+  color: #555;
+}
+
+.key-points {
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-left: 4px solid #3498db;
+  margin: 15px 0;
+}
+
+.key-points ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.key-points li {
+  margin: 8px 0;
+  color: #555;
+}
+
+.research-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.research-nav a {
+  padding: 12px 25px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.research-nav a:hover {
+  background: #2980b9;
+}
+</style>
 
 # Research
 
 My research advances thermal-fluid sciences across phase change heat transfer, reactive multiphase transport, and acoustic sensing in energy and power systems. I integrate experimental prototyping, multiscale modeling, machine learning, and material development to address challenges in energy storage, thermal management, and clean energy systems.
 
-## Thermal Energy Storage & Phase Change Materials
+---
 
-Phase change materials (PCMs) enable temporal thermal buffering for sustainable energy systems. I developed CaCl₂·6H₂O-based latent heat storage modules to improve dry cooling systems in power plants by shifting ambient heat from daytime to nighttime. 
+## Research Direction 1: [Topic Title]
 
-**Key contributions:**
-- Designed and synthesized PCM composites with enhanced thermal properties through additive engineering
-- First to micro-encapsulate PCM into lightweight aggregates for porous latent heat energy storage (LHES) modules
-- Performed atomic-scale molecular dynamics simulations to understand CaCl₂ solution behavior and freezing point depression
-- Experimental evaluation in a 23-ft custom heat transfer wind tunnel demonstrated robust heat shifting and ~5% power-output gain at high ambient temperatures
+<div class="research-section" id="research-1">
 
-This work establishes a pathway for integrating thermal energy storage into existing power infrastructure to improve efficiency and reduce peak thermal loads.
+### Overview
+<div class="research-description">
+[Write your research overview here. Describe the motivation, goals, and significance of this research direction. Explain how it connects to broader energy and sustainability challenges.]
+</div>
 
-## Additive Manufacturing of Porous Structures
+### Figures & Media
 
-Porous materials are essential to many energy technologies, where pore architecture controls coupled transport of mass, heat, and momentum. I advanced laser powder bed fusion techniques to fabricate tailored porous structures for thermal systems.
+<div class="research-figure">
+  <!-- Image placeholder - replace with your actual figure -->
+  <div class="placeholder">
+    📷 Figure 1: [Figure Caption]
+    <span>Replace this with your research figure/image</span>
+  </div>
+</div>
 
-**Key contributions:**
-- Optimized L-PBF parameters (scan strategy, laser power, scanning speed) for titanium alloy (Ti64) loop heat pipe evaporators
-- Achieved low effective pore radii (<10 μm) and high permeability (~10⁻¹¹ m²) in 3D-printed wick structures
-- Developed microstructure-performance relationships for additively manufactured porous thermal components
+<div class="research-figure">
+  <!-- Video placeholder - replace with your actual video -->
+  <div class="placeholder">
+    🎬 Video 1: [Video Title]
+    <span>Replace with research demonstration or explanation video</span>
+  </div>
+</div>
 
-This research enables direct manufacturing of application-specific porous geometries, bridging the gap between computational design and experimental realization of advanced thermal systems.
+### Key Contributions
+<div class="key-points">
+<ul>
+  <li>[First key contribution or finding]</li>
+  <li>[Second key contribution or finding]</li>
+  <li>[Third key contribution or finding]</li>
+  <li>[Add more points as needed]</li>
+</ul>
+</div>
 
-## Acoustic Sensing & Machine Learning for Multiphase Flows
+### Technical Details
+<div class="research-description">
+[Add any technical methodology, experimental setup, or modeling approaches here. This section can include details about:
+- Experimental methods and equipment
+- Computational approaches
+- Materials used
+- Analysis techniques]
+</div>
 
-Acoustic emission (AE) sensing offers a non-destructive way to capture fast dynamic processes in thermal-fluid systems. I established an AE-ML framework for flow condensation characterization that enables quantitative heat transfer analysis without intrusive measurements.
+</div>
 
-**Key contributions:**
-- Developed acoustic signature-based methods for identifying flow regimes in condensation (slug flow, annular flow)
-- Integrated machine learning with AE power spectra for quantitative characterization of phase change heat transfer
-- Demonstrated non-destructive diagnostics capability for multiphase flow systems
+---
 
-This work opens promising paths for real-time monitoring and control of thermal systems where traditional sensors cannot be deployed.
+## Research Direction 2: [Topic Title]
+
+<div class="research-section" id="research-2">
+
+### Overview
+<div class="research-description">
+[Write your research overview here. Describe the motivation, goals, and significance of this research direction. Explain how it connects to broader energy and sustainability challenges.]
+</div>
+
+### Figures & Media
+
+<div class="research-figure">
+  <!-- Image placeholder - replace with your actual figure -->
+  <div class="placeholder">
+    📷 Figure 2: [Figure Caption]
+    <span>Replace this with your research figure/image</span>
+  </div>
+</div>
+
+<div class="research-figure">
+  <!-- Video placeholder - replace with your actual video -->
+  <div class="placeholder">
+    🎬 Video 2: [Video Title]
+    <span>Replace with research demonstration or explanation video</span>
+  </div>
+</div>
+
+### Key Contributions
+<div class="key-points">
+<ul>
+  <li>[First key contribution or finding]</li>
+  <li>[Second key contribution or finding]</li>
+  <li>[Third key contribution or finding]</li>
+  <li>[Add more points as needed]</li>
+</ul>
+</div>
+
+### Technical Details
+<div class="research-description">
+[Add any technical methodology, experimental setup, or modeling approaches here.]
+</div>
+
+</div>
+
+---
+
+## Research Direction 3: [Topic Title]
+
+<div class="research-section" id="research-3">
+
+### Overview
+<div class="research-description">
+[Write your research overview here. Describe the motivation, goals, and significance of this research direction. Explain how it connects to broader energy and sustainability challenges.]
+</div>
+
+### Figures & Media
+
+<div class="research-figure">
+  <!-- Image placeholder - replace with your actual figure -->
+  <div class="placeholder">
+    📷 Figure 3: [Figure Caption]
+    <span>Replace this with your research figure/image</span>
+  </div>
+</div>
+
+<div class="research-figure">
+  <!-- Video placeholder - replace with your actual video -->
+  <div class="placeholder">
+    🎬 Video 3: [Video Title]
+    <span>Replace with research demonstration or explanation video</span>
+  </div>
+</div>
+
+### Key Contributions
+<div class="key-points">
+<ul>
+  <li>[First key contribution or finding]</li>
+  <li>[Second key contribution or finding]</li>
+  <li>[Third key contribution or finding]</li>
+  <li>[Add more points as needed]</li>
+</ul>
+</div>
+
+### Technical Details
+<div class="research-description">
+[Add any technical methodology, experimental setup, or modeling approaches here.]
+</div>
+
+</div>
+
+---
+
+### Suggested Research Direction Titles
+
+Based on your completed work, here are suggested titles:
+
+1. **Thermal Energy Storage & Phase Change Materials** - PCM development for power plant cooling, latent heat storage modules
+2. **Additive Manufacturing of Porous Structures** - 3D printed Ti64 loop heat pipes, L-PBF optimization
+3. **Acoustic Sensing & Machine Learning for Multiphase Flows** - AE-ML framework for flow condensation characterization
