@@ -8,7 +8,7 @@ permalink: /research/
 My research advances thermal-fluid sciences across phase change heat transfer, reactive multiphase transport, and acoustic sensing in energy and power systems. I integrate experimental prototyping, multiscale modeling, machine learning, and material development to address challenges in energy storage, thermal management, and clean energy systems.
 
 <!-- Replace with Figure 1 from your research statement -->
-![Research Overview](/assets/img/research-figure-1.jpg)
+![Research Overview](/assets/img/research-figure-1.jpeg)
 
 <!-- 
 ## Research Direction 1: [Topic Title]
